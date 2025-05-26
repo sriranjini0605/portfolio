@@ -19,13 +19,13 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        <span className="font-medium">With nearly two years of experience as an Application Development
+        <span className="font-medium">With two years of experience as an Application Development
            Analyst at Accenture, I contributed to web development and data visualization projects,
           leveraging Spring Boot, AWS, LLMs, MongoDB, and React.js. I developed and optimized web 
           applications, built interactive dashboards using Power BI and Tableau, and collaborated 
-          with cross-functional teams to deliver impactful solutions. Currently pursuing an MS in 
-          Information Technology at ASU, I’m deepening my expertise in machine learning, full-stack
-          development, and cloud computing. Actively seeking full time software developer roles to 
+          with cross-functional teams to deliver impactful solutions. As a recent Master’s graduate
+          in Information Technology from ASU, I’ve been honing my skills in full-stack development and cloud computing,
+          with a strong focus on building scalable, real-world applications. Actively seeking full time software developer/ software engineer roles to 
           apply my skills and gain hands-on experience. Outside of work, I enjoy singing, playing volleyball, and 
           engaging with diverse perspectives.</span>
       </p>

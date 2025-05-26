@@ -42,7 +42,7 @@ export const experiencesData = [
     description:
       "As Atlassian Developer, I mastered agile project management and system optimization using Jira and JSM. I led sprint planning and retrospectives, collaborating across teams to streamline project timelines and deliverables and advanced agile project management, significantly improving team flexibility and delivery efficiency.Led successful JIRA platform migration, enhancing project support, cross-team operability, and overall system efficiency.",
     icon: React.createElement(LuGraduationCap),
-    date: "June 2024- Present",
+    date: "June 2024 - May 2025",
   },
   {
     title: "Application Development Analyst",
