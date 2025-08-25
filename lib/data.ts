@@ -40,7 +40,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "",
-    company: "Peace Labs at Arizona State University",
+    company: "Peace Lab at Arizona State University",
     location: "Tempe, AZ",
     description:
       "I improved the Peace Lab website using ReactJS, Sanity.IO, HTML, and CSS, achieving a 20% increase in load speed. In addition, I developed an AI chatbot backend with FastAPI and Amazon Bedrock, powered by Sanity.IO endpoints, and integrated a chat interface that enables users to query Peace Lab directly through an interactive window.",
