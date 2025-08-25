@@ -6,6 +6,9 @@ import proshopImg from "@/public/Proshop.png";
 import prepifyImg from "@/public/Prepify.png";
 import todoAppImg from "@/public/Todo.png";
 import brainwaveImg from "@/public/Brainwave.png";
+import corecoachImg from "@/public/CoreCoach.png";
+import elasticvisionImg from "@/public/ElasticVision.png";
+import supplysightImg from "@/public/SupplySight.png";
 
 export const links = [
   {
@@ -36,6 +39,15 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "",
+    company: "Peace Labs at Arizona State University",
+    location: "Tempe, AZ",
+    description:
+      "I improved the Peace Lab website using ReactJS, Sanity.IO, HTML, and CSS, achieving a 20% increase in load speed. In addition, I developed an AI chatbot backend with FastAPI and Amazon Bedrock, powered by Sanity.IO endpoints, and integrated a chat interface that enables users to query Peace Lab directly through an interactive window.",
+    icon: React.createElement(LuGraduationCap),
+    date: "June 2025 - Present",
+  },
+  {
     title: "Atlassian Developer",
     company: "Arizona State University",
     location: "Tempe, AZ",
@@ -65,6 +77,30 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "SupplySight",
+    description:
+      "An AI-powered supply chain visibility platform that provides real-time insights and analytics.",
+    tags: ["Neo4j", "Snowflake", "Amazon Bedrock (Claude 3.5)", "Flask", "React", "Docker"],
+    imageUrl: supplysightImg,
+    githubLink: "https://github.com/sriranjini0605/SupplySight"
+  },
+  {
+   title: "CoreCoach",
+    description:
+      "A comprehensive coaching platform leveraging AI to provide personalized training plans and progress tracking.",
+    tags: ["Spring Boot", "Spring Cloud", "Keycloak", "OpenAI", "React JS", "Docker", "Amazon EC2"],
+    imageUrl: corecoachImg,
+    githubLink: "https://github.com/sriranjini0605/CoreCoach"
+  },
+  {
+   title: "Elastic Face Recognition System",
+    description:
+      "Developed an elastic face recognition system using AWS and deep learning, dynamically scaling compute resources to process images on demand and significantly enhancing real-time application efficiency.",
+    tags: ["Amazon Web Services (EC2, S3, SQS)", "PyTorch", "React JS"],
+    imageUrl: elasticvisionImg,
+    githubLink: "https://github.com/sriranjini0605/CloudSight"
+  },
   {
     title: "Proshop",
     description:
@@ -112,7 +148,6 @@ export const skillsData = [
   "Tableau",
   "Hibernate",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
@@ -121,4 +156,8 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Python",
+  "Amazon Bedrock",
+  "KeyCloak",
+  "Docker",
+  "Gen AI"
 ] as const;

@@ -19,15 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        <span className="font-medium">With two years of experience as an Application Development
-           Analyst at Accenture, I contributed to web development and data visualization projects,
-          leveraging Spring Boot, AWS, LLMs, MongoDB, and React.js. I developed and optimized web 
-          applications, built interactive dashboards using Power BI and Tableau, and collaborated 
-          with cross-functional teams to deliver impactful solutions. As a recent Master’s graduate
-          in Information Technology from ASU, I’ve been honing my skills in full-stack development and cloud computing,
-          with a strong focus on building scalable, real-world applications. Actively seeking full time software developer/ software engineer roles to 
-          apply my skills and gain hands-on experience. Outside of work, I enjoy singing, playing volleyball, and 
-          engaging with diverse perspectives.</span>
+        <span className="font-medium">I am a software engineer with two years of experience at Accenture as an Application Development Analyst
+           and one year at EdPlus, Arizona State University, as an Atlassian Developer. At Accenture, I built scalable web applications,
+            optimized distributed systems, and delivered interactive dashboards using React.js, Spring Boot, AWS, and visualization tools
+             like Power BI and Tableau. At ASU, I enhanced DevOps workflows by leading a Jira platform migration, developing automations,
+              and authoring technical documentation to improve collaboration and delivery speed.
+
+I recently earned my Master’s in Information Technology at Arizona State University with a 4.0 GPA, 
+where I focused on full-stack development, cloud computing, and AI-driven applications. My projects 
+include an AI-powered fitness platform, a GenAI-enabled supplier risk forecasting tool, and a real-time face recognition 
+system on AWS. Outside of tech, I enjoy singing, playing volleyball, and engaging with diverse communities that inspire
+ creativity in my work. I’m actively seeking full-time software developer and software engineer roles to apply my skills
+  and grow through new challenges.</span>
       </p>
     </motion.section>
   );
